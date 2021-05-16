@@ -37,7 +37,9 @@ const Main = () => {
           <div className="open-nav-container">
             <div className="nav-title">
               <div>Edit your search</div>
-              <i className="material-icons" onClick={() => { setFilterActive(false); setLocationActive(false); setGuestActive(false); }}>close</i>
+              <i className="material-icons" style={{cursor:'pointer'}}
+                onClick={() => { setFilterActive(false); setLocationActive(false); setGuestActive(false); }}>
+                close</i>
             </div>
             <div className="grid-container">
               <div className="open-filter-container">
